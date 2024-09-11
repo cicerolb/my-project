@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+}
+
+.section {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+.section1, .section2, .section3 {
+    background-color: #3498db;
+}
+
+
